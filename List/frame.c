@@ -1,9 +1,9 @@
-//frame.c 页面管理工具
+//frame.c
 #include <stdlib.h>
 #include "list.h"
 
 //alloc_frame
-int alloc_frame(List *frames) //创建一个页面
+int alloc_frame(List *frames) //鐢宠frame绌洪棿
 {
     int frame_number, *data;
     if (list_size(frames) == 0)
